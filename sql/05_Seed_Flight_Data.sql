@@ -5,6 +5,9 @@
    - Nạp dữ liệu cho LichBay
    - Có bổ sung ví dụ chuyến bay qua đêm (CASE 2)
    ============================================================ */
+   
+USE AirlineAgency;
+GO
 
 -- ChuyenBay — 25 chuyến bay (bao gồm chuyến bay qua đêm)
 INSERT INTO ChuyenBay (MaCB, SanBayDi, SanBayDen, GioDi, GioDen) VALUES
