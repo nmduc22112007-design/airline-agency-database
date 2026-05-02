@@ -7,6 +7,9 @@
    Lý do tách riêng:
    - Có các khóa ngoại tham chiếu đến bảng gốc
    ============================================================ */
+   
+USE AirlineAgency;
+GO
 
 CREATE TABLE ChuyenBay (
     MaCB        VARCHAR(10)     NOT NULL,
