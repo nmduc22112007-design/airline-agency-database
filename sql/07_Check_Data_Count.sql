@@ -10,6 +10,9 @@
      + LichBay    = 27
      + DatCho     = 32
    ============================================================ */
+   
+USE AirlineAgency;
+GO
 
 SELECT 'SanBay'     AS TenBang, COUNT(*) AS SoBanGhi FROM SanBay
 UNION ALL
