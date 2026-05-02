@@ -5,6 +5,9 @@
    - Có bổ sung đặt chỗ cho chuyến bay qua đêm
    - Lưu ý: NgayDi luôn là ngày KHỞI HÀNH
    ============================================================ */
+   
+USE AirlineAgency;
+GO
 
 INSERT INTO DatCho (MaKH, MaCB, NgayDi, TrangThai, NgayDat) VALUES
 ('KH001', 'VN101', '2025-05-01', 2, '2025-04-20 09:00:00'),
