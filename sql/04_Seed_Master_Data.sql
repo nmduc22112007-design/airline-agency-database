@@ -5,6 +5,9 @@
    - Nạp dữ liệu cho MayBay
    - Nạp dữ liệu cho KhachHang
    ============================================================ */
+   
+USE AirlineAgency;
+GO
 
 INSERT INTO SanBay (MaSB, TenSB, DiaDiem) VALUES
 ('SGN', N'Sân bay Quốc tế Tân Sơn Nhất',  N'Quận Tân Bình, TP. Hồ Chí Minh'),
