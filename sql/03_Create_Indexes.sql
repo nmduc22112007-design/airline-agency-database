@@ -3,6 +3,10 @@
    Chức năng:
    - Tạo index cho các cột được lọc / join / group thường xuyên
    ============================================================ */
+   
+USE AirlineAgency;
+GO
+
 CREATE INDEX IDX_LichBay_NgayBay
     ON LichBay (NgayBay);
 GO
