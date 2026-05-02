@@ -7,6 +7,9 @@
    Lý do tách riêng:
    - Đây là các bảng cha, các bảng sau sẽ tham chiếu đến
    ============================================================ */
+   
+USE AirlineAgency;
+GO
 
 CREATE TABLE SanBay (
     MaSB        VARCHAR(10)     NOT NULL,
